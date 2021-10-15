@@ -1,0 +1,115 @@
+.popular_goods{
+    width:1170px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 100px;
+    .popular_goods_heading{
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+        a{
+            font-weight: bold;
+font-size: 20px;
+line-height: 120%;
+color: #FDD444;
+        }
+    }
+    h2{
+        @include headline_h2;
+        margin-bottom: 36px;
+    }
+    .product_group__list{
+        width:270px;
+        box-shadow: 0px 15px 50px rgba(67, 76, 109, 0.08);
+        padding: 25px 25px 34px 31px;
+    h3{
+        @include headline_h3;
+        font-size: 13px;
+line-height: 118.19%;
+margin-bottom: 33px;
+height:45px;
+    }
+    .goods_img{
+        margin-bottom: 32px;
+        width:208px;
+        height:150px
+    }
+}
+}
+
+.description{
+    display: flex;
+    margin-bottom: 18px;
+  
+.description_list{
+    font-weight: bold;
+font-size: 11px;
+line-height: 154.19%;
+color: #818181;
+margin-right: 15px;
+
+}
+.description_list__item{
+    
+font-weight: normal;
+font-size: 11px;
+line-height: 154.19%;
+color: #646986;
+}
+
+}
+.description_price{
+    display: flex;
+    height: 37px;
+    p{
+        font-weight: bold;
+font-size: 18px;
+line-height: 25px;
+color: #2C3BA0;
+display: flex;
+align-items: flex-end;
+    }
+    span{
+        display: flex;
+        align-items:flex-start;
+        font-size: 12px;
+        line-height: 16px;
+        text-decoration-line: line-through;
+        
+        color: rgba(44, 59, 160, 0.6);
+    }
+    img{
+        margin-left: 33px;
+        display: flex;
+        align-self:flex-end;
+    }
+    .no-rabate{
+        margin-left: 96px;
+    }
+}
+.product_group{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-bottom: 60px;
+}
+.description_no_element{
+    margin-bottom: 34px;
+}
+.popular_goods-btn{
+    font-weight: bold;
+font-size: 15px;
+line-height: 105%;
+color: #121D46;
+width: 279px;
+padding: 20px ; 
+background: #FDD444;
+box-shadow: 0px 6px 20px rgba(253, 212, 68, 0.29);
+display: block;
+margin-left: auto;
+margin-right: auto;
+text-align: center;
+img{
+    margin-left: 6px;
+}
+}
