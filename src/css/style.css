@@ -473,6 +473,10 @@ html, body {
   line-height: 120%;
   color: #121D46; }
 
+.navigation a:hover {
+  font-weight: bold;
+  color: #061546; }
+
 .order_call {
   display: flex;
   align-items: center; }
@@ -481,6 +485,9 @@ html, body {
     line-height: 18px;
     color: #121D46;
     margin-right: 15px; }
+  .order_call .order_call__tel:hover {
+    font-weight: bold;
+    color: #061546; }
   .order_call .order_call__button {
     font-weight: bold;
     font-size: 11px;
@@ -490,6 +497,8 @@ html, body {
     padding: 9px 16px;
     background-color: #FDD444;
     margin-right: 50px; }
+  .order_call .order_call__button:hover {
+    background-color: #d3a708; }
 
 .basket_product {
   display: flex;
@@ -501,16 +510,24 @@ html, body {
   .basket_product span img {
     margin-right: 50px; }
 
-.authorization {
+.authorization a {
   display: flex;
   align-items: center; }
-  .authorization .authorization_img {
+  .authorization a p {
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 18px;
+    text-align: center;
+    color: #121D46; }
+  .authorization a p:hover {
+    font-size: 15px;
+    color: #061546; }
+  .authorization a .authorization_img {
     width: 27px;
     height: 30px;
     margin-right: 10px; }
 
 .dropbtn {
-  padding: 16px;
   font-size: 16px;
   border: none;
   background-color: white; }
@@ -580,23 +597,28 @@ html, body {
   .hero_content .hero_content--button img {
     margin-left: 6px; }
 
-.hero_content .social_navigation {
+.hero_content .hero_content--button:hover {
+  background-color: #d3a708; }
+
+.social_navigation {
   display: flex;
   align-items: center; }
-  .hero_content .social_navigation .social_navigation__map-img {
+  .social_navigation .social_navigation__map-img {
     margin-right: 6px; }
-  .hero_content .social_navigation .social_navigation_map span {
+  .social_navigation .social_navigation_map span {
     margin-left: 5px;
     font-size: 14px;
     line-height: 19px;
     color: #121D46; }
-  .hero_content .social_navigation .socialLink_list {
+  .social_navigation .socialLink_list {
     display: flex;
     margin-left: 55px;
     gap: 10px; }
 
 .mySlider {
   width: 833px;
+  margin-left: auto;
+  margin-right: auto;
   height: 496px;
   background-image: url(../img/Hero__img.png); }
   .mySlider .scroll_bar_content {
@@ -881,6 +903,8 @@ header {
       font-size: 20px;
       line-height: 120%;
       color: #FDD444; }
+    .best_choice .best_choice_content .best_choice--button:hover {
+      color: #d3a708; }
 
 .best_choice--insert {
   position: absolute;
@@ -1129,6 +1153,8 @@ span.sim-dot {
       font-size: 20px;
       line-height: 120%;
       color: #FDD444; }
+    .popular_goods .popular_goods_heading a:hover {
+      color: #d3a708; }
   .popular_goods h2 {
     font-weight: bold;
     font-size: 30px;
@@ -1185,10 +1211,11 @@ span.sim-dot {
     line-height: 16px;
     text-decoration-line: line-through;
     color: rgba(44, 59, 160, 0.6); }
-  .description_price img {
-    margin-left: 33px;
+  .description_price a {
     display: flex;
     align-self: flex-end; }
+    .description_price a img {
+      margin-left: 33px; }
   .description_price .no-rabate {
     margin-left: 96px; }
 
@@ -1216,6 +1243,9 @@ span.sim-dot {
   text-align: center; }
   .popular_goods-btn img {
     margin-left: 6px; }
+
+.popular_goods-btn:hover {
+  background-color: #d3a708; }
 
 .location {
   position: relative; }
@@ -1334,6 +1364,8 @@ footer {
     font-size: 13px;
     line-height: 120%;
     color: #121D46; }
+  .site_links .site_links__list a:hover {
+    color: #0324ba; }
   .site_links .site_links__list a:last-child {
     margin-bottom: 0; }
   .site_links .site_links__list li:last-child a:last-child {
@@ -1343,6 +1375,8 @@ footer {
     color: #121D46; }
     .site_links .site_links__list li:last-child a:last-child img {
       margin-left: 10px; }
+  .site_links .site_links__list li:last-child a:last-child:hover {
+    color: #0021b3; }
 
 .information_group {
   margin-right: 69px; }

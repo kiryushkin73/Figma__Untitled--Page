@@ -48,6 +48,10 @@ margin-right: 7px;
 line-height: 120%;
 color: #121D46;
     }
+    a:hover{
+        font-weight: bold;
+        color: #061546;
+    }
 }
 .order_call{
     display: flex;
@@ -58,6 +62,10 @@ color: #121D46;
     color: #121D46;
     margin-right: 15px;
 }
+.order_call__tel:hover{
+    font-weight: bold;
+    color: #061546;
+}
 .order_call__button{
     font-weight: bold;
 font-size: 11px;
@@ -67,6 +75,9 @@ color: #121D46;
 padding: 9px 16px;
 background-color: #FDD444;
 margin-right: 50px;
+}
+.order_call__button:hover{
+background-color: #d3a708;
 }
 }
 .basket_product{
@@ -82,14 +93,25 @@ span img{
     margin-right: 50px;
 }
 }
-.authorization{
+.authorization a{
 display: flex;
 align-items: center;
+p{
+    font-weight: bold;
+font-size: 13px;
+line-height: 18px;
+text-align: center;
+color: #121D46;
+}
+p:hover{
+font-size: 15px;
+    color: #061546;
+}
 .authorization_img{
   width: 27px;
   height: 30px;  
   margin-right: 10px;
 }
 
-}
 
+}

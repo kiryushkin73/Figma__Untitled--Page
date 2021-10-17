@@ -13,6 +13,10 @@ font-size: 20px;
 line-height: 120%;
 color: #FDD444;
         }
+        a:hover{
+  color: #d3a708;
+
+        }
     }
     h2{
         @include headline_h2;
@@ -78,11 +82,13 @@ align-items: flex-end;
         
         color: rgba(44, 59, 160, 0.6);
     }
-    img{
-        margin-left: 33px;
+    a {
+      
         display: flex;
         align-self:flex-end;
+    img{  margin-left: 33px;}
     }
+    
     .no-rabate{
         margin-left: 96px;
     }
@@ -112,4 +118,7 @@ text-align: center;
 img{
     margin-left: 6px;
 }
+}
+.popular_goods-btn:hover{
+    background-color: #d3a708;
 }

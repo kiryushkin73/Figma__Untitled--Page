@@ -145,6 +145,9 @@ line-height: 149%;
 line-height: 120%;
 color: #121D46;
         }
+        a:hover{
+            color: hsl(229, 97%, 37%);
+        }
         a:last-child{
             margin-bottom: 0;
         }
@@ -154,10 +157,15 @@ color: #121D46;
 font-size: 13px;
 line-height: 120%;
 color: #121D46;
+
 img{
     margin-left: 10px;
 }
         }
+        a:last-child:hover{
+            color: hsl(229, 100%, 35%);
+        }
+
     }
     }
    
