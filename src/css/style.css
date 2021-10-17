@@ -522,6 +522,9 @@ html, body {
   .authorization a p:hover {
     font-size: 15px;
     color: #061546; }
+  .authorization a .authorization {
+    display: flex;
+    align-self: center; }
   .authorization a .authorization_img {
     width: 27px;
     height: 30px;
